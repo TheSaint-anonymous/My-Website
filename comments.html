@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="websystems.css">
+		<link rel="icon" type="image/x-icon" href="image/web-icon.ico">
+		<title>My comments by Vincent.</title>
+	</head>
+	<body>
+		<section class="fourthmain">
+				<nav>
+				<a href="index.html" class="logo">
+					<img src="image/cornor-white-no-background.png" alt="website logo it contains hidden message">
+				</a>
+				<ul class="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="past.html">Past</a></li>
+					<li><a href="future.html">Future</a></li>
+					<li><a href="comments.html" class="activecomments">Comments</a></li>
+				</ul>
+				</nav>
+				<div class="centre">
+					<h1>MY COMMENTS.</h1>	
+				</div>
+		</section>
+
+	   <section class="maintext">
+			<div class="subtitle">My Comments.&#9997;</div>
+
+			
+			<h1>Reflection.</h1>
+				<p><b>Adventure</b> and <b>self-reflection</b> are the main concept around the whole design of this website. On the home page, people first encounter the image of a blacked-out road sign. This symbolise the mystery, the uncertainty of where the website is going to guide you. At the same time, it is fun, exciting which demonstrated by the vibrant background colour behind the black road sign. Following the next three webpages, the audience can see three different open-road images which all lead to different scenery and destination and this destination is information about me. Again, this ties up with the theme – <b>adventure</b>. <br>
+From the past page, it guides the audience to a cold, washed-out place symbolises past, my past. In contrast to the future, it leads the audience to a bright, warm scenery which symbolise my future.<br>
+At the bottom of each page has a <i>quote</i> for the audience to take home with. This hopefully provides the audience some <b>self-reflection</b> and each quote correlates to the context of each page. </p>
+				
+		
+		<picture>
+				<source media="(min-width:1000px)" 
+				srcset="image/direction.png">
+				<source srcset="image/cropfigure1.png">
+					<img id="figureone" src="image/direction.png"  alt="from a blacked out road sign to each different scenory, past snowy mountain, future bright open road, comment another snowy mountain">
+		</picture>
+<figcaption class="figure1">Figure 1 - From blacked out road sign to different scenory symbolising adventure.</figcaption>
+
+		<h1>Technical.</h1> 
+
+<p><span class="subheading">Structure</span><br><br> 
+The website has four html webpages, home, past, future and comments and one CSS stylesheet. All 4 webpages follow the same structure as the page divided into two sections. On the top section, menu bar and introduction text can be seen. Then the bottom section where the main text content and the footer located. The navigation use hyperlink to navigate to each individual page on this website. The menu bar are on the top of the page provide easy navigation for the reader.</p>
+		<table>
+  		<tr>
+    		<th>Page</th>
+    		<th>Description</th>
+ 		 </tr>
+
+ 		 <tr>
+   		 	<td>index.html</td>
+    		<td>This is the first page of the webiste, it briefly introduces the site.</td>
+ 		 </tr>
+
+  		<tr>
+   			 <td>past.html</td>
+    		<td>This is the second page of the webiste. It contains information of my past experience. </td>
+  		</tr>
+
+  		<tr>
+  		  <td>future.html</td>
+  		  <td>This is the third page of the webiste. It contains my future direction. </td>
+  		</tr>
+
+  		<tr>
+  	 	 <td>comments.html</td>
+  	 	 <td>This is the fourth page of the webiste. It contains information about the structure, aesthetics, accessibility etc.</td>
+ 	 	</tr>
+
+		  <tr>
+  	 	 <td>websystems.css</td>
+  	 	 <td>This is the CSS file which handles the styling of the site, it is not readable on the surface level on the website.</td>
+ 	 	</tr>
+		</table>
+		
+		
+		<p>	<span class="subheading">1. HTML structure</span><br><br>
+<span class="sub">Head</span><br><br>
+Inside the <code>&lt;head&gt;</code> element, two main <code>&lt;meta&gt;</code> tags are included. Firstly, the Unicode character set UTF-8. This Unicode standard covers all the character, punctuation, and symbol in the webpage. Next viewport meta tag. This is to ensure that the website can be view and fit to any device screen size.
+Website icon is shown by using the <code>&lt;link&gt;</code> tag, this also used to link the CSS stylesheet for the website. The use of <code>&lt;title&gt;</code> tag provide a brief description of the page on the browser tab. </p>
+		
+		<img src="image/tab.png" alt="icon of the website and title of the page">
+		<figcaption>Figure 3 - Icon and title of the site.</figcaption>
+
+		
+  <p> <span class="sub">Section</span><br><br>
+<code>&lt;section&gt;</code> tag divided the webpage into section as shown in <a href="#figure2">Figure 2</a>, this is to separate the content from the other information such as navigation. 
+The use of <code>&lt;nav&gt;</code> tag provides the navigation and menu bar on the website; this also includes the logo of the website. <code>&lt;li&gt;</code> element is used to organise the menu bar.</p>
+
+		
+		
+<p><span class="sub">Content</span><br><br>
+The text content in the second section is placed inside another <code>&lt;section&gt;</code> tag to separate the image and the text. <code>&lt;p&gt;</code> tags are used to divided into different paragraphs. The use of <code>&lt;br&gt;</code> to break a sentence into a new line as shown in the next line.<br>
+The use of <code>&lt;caption&gt;</code> and <code>&lt;figcaption&gt;</code> to pair with the image itself as it provides another text description to the images. </p>
+		
+
+		
+<p><span class="sub">Footer</span><br><br>
+The footer is divided using <code>&lt;footer&gt;</code> element, and in the footer element, it contains information about the copyright and image source of each page. A back-to-top button which can navigate the reader back to the top of the webpage.</p>
+		
+		<picture>
+				<source media="(min-width:1000px)" 
+				srcset="image/pagestructure.png">
+				<source srcset="image/cropstructure.png">
+		<img src="image/pagestructure.png" id="figure2" alt="structure of the webpage">
+		</picture>
+		<figcaption>Figure 2 - Structure of the webpage.</figcaption>
+		
+		
+<p><span class="subheading">2. CSS structure</span><br><br>
+CSS is responsible for the syling and position of each and single one of the element, class, id in the website. All content are placed inside a border-box which allows the padding and border included in an element's total width and height. Here are the summary of some CSS selector used in this website.</p>
+	
+	<table>
+  		<tr>
+    		<th>CSS selector</th>
+    		<th>Purpose</th>
+ 		 </tr>
+
+ 		 <tr>
+   		 	<td>*</td>
+    		<td>This is a setting apply to all element in the webpage such as scroll-behaviour: smooth as demonstrate by clicking the back to top button</td>
+ 		 </tr>
+
+  		<tr>
+   			 <td>.main</td>
+    		<td>This is a class attribute apply to the <code>&lt;section&gt;</code> tag such as dimension of the image, position of the text </td>
+  		</tr>
+
+  		<tr>
+  		  <td>nav</td>
+  		  <td>This is applied to the element <code>&lt;nav&gt;</code> such as spacing of the list, orientation of the menu, colour, and opacity of the background. </td>
+  		</tr>
+
+  		<tr>
+  	 	 <td>a:hover</td>
+  	 	 <td>This is a function applied to the navigation bar and the <code>&lt;a&gt;</code> hyperlink tag, as mouse hover a button, a box is shown around the button.</td>
+ 	 	</tr>
+
+  		<tr>
+    		<td>.active</td>
+    		<td>This is a class attribute applied to each single button in the menu bar. This is to place a highlight box around the current page the reader is in.</td>
+		  </tr>
+
+ 		 <tr>
+  		  <td>table, th, tr</td>
+   		 <td>This is a class attribute applied to all table element in the html </td>
+ 		 </tr>
+
+ 	 <tr>
+   		 <td>footer</td>
+   		 <td>This is applied to all <code>&lt;footer&gt;</code> element, its position </td>
+ 	 </tr>
+
+ 	 <tr>
+  		  <td>#id</td>
+  		  <td>This id attribute is use as an identification for some hyperlinks set on the page. E.g., <a href="#figure2">Figure 2</a></td>
+ 	 </tr>
+
+ 	 <tr>
+   		 <td>tr:nth-child(even or odd)</td>
+   		 <td>This CSS function allows each row on the table to have a different colour base on whether they are on the even number or odd number.</td>
+  		</tr>
+	<tr>
+   		 <td>@media </td>
+   		 <td>This CSS function help adjust the position of element base on the device screen size.</td>
+  		</tr>
+</table>
+	
+
+	<h1>Aesthetics.</h1> 
+<p><span class="subheading">Colour</span><br><br> 
+The use of pastel colour such as antique white as a background colour on the text section, the reason being that it has high brightness and low saturation meaning that they contain less grey, glooming colour which provides a calming and peaceful vibe to the website. The use of Indian red on the quote recapture the eye of the audience as they might lose focus after reading a long text and provide them a change of colour and scenery to the eye.</p>
+		
+		<img src="image/colour.png" alt="pastel colour palette">
+		<figcaption>Figure 4 - The pastel colour palette used in this site.</figcaption>
+		
+
+<p><span class="subheading">Font</span><br><br> 
+Two main font family are used on the website. First, Ariel, this provides an easy-to-read text unlike font like cursive, and it is one of the most common font styles using across the world, this gives the reader a sense of familiarity. Second, the use of Courier New font family on the quote provides a change to separate the main text to the quote.</p>
+
+<p><span class="subheading">Navigation</span><br><br> 
+The navigation has an opaque colour background, this is to contrast the background and the foreground of the page. Also, when a mouse point hovers over, a box highlight shows up, this is to provide a sense of direction and links to follow. </p>
+
+<p><span class="subheading">Back-to-top</span><br><br> 
+The back to top button located on the footer has been set using the function in CSS: smooth scrolling, this is to prevent disorientation to the audience, and it smoothly scrolls to the top, it gives the audience the scene of where they are in the page. The link colour is left with standard blue hyperlink colour to inform the audience that this button is clickable. Try go to the bottom and pay attention to the smooth scrolling. </p>
+
+<p><span class="subheading">Others</span><br><br> 
+The use of icon and logo gives identity to the website. The icon design using the website <a href="https://favicon.cc" target="_blank">www.favicon.cc</a>. And the logo has a hidden message - zoom into the logo! and the code can be decipher using <a href="https://rot13.com/" target="_blank">rot13</a>, this reinforces one of the main concepts of the website – adventure/mystery.<br>
+The website structure and position stay constant and centred as it provides consistency and continuity and directs the eye of the audience and make them focus on the centre.<br>
+The use of white space next to the text allows the audience focus on what is the most important. All hyperlink on this website opens into a new browser tab to avoid confusion, this is done by using <code>&lt;target&gt;</code> attribute inside the anchor tag. </p>
+ 
+
+	<h1>Accessibility.</h1> 
+<p>The website is built with the idea that it is easily accessible for people with disability such as colour blindness, visual impairment , cognitive/motor neurone disorder by following the guideline standard for web accessibility from <a href="https://www.w3.org/WAI/fundamentals/accessibility-principles/" target="_blank">W3C</a> and <a href="https://webaim.org/" target="_blank">WebAIM</a>.</p>
+
+<p><span class="subheading">Colour blindness</span><br><br> 
+The site has been tested using third party <a href="https://www.toptal.com/designers/colorfilter/" target="_blank">colourblind filter</a> to make sure the colour of the image and text are easily readable for all types of colour blindness. This includes Protanopia – red colour blindness, Deuteranopia – green colour blindness, Tritanopia – blue/yellow colour blindness and Greyscale/achromatopsia – total colour blindness. The use of dark colour text on light colour background provides a great contrast to the reader e.g., black on white. No two similar colour are overlapping on the website e.g., red on dark red.</p>
+		
+		<img src="image/colourblind.png" alt="Different type of colourblind filter applied to the website">
+		<figcaption>Figure 5 - Top left: Protanopia, Top right: Deuteranopia, Bottom left: Tritanopia, Bottom right: Greyscale.</figcaption>
+	
+
+		<p><span class="subheading">Visual impairment – total blindness</span><br><br> 
+The use of <code>&lt;alt&gt;</code> tag on an image provide text alternative for non-text content. In this way, for people using reader mode on a website can listen a description of an image. The page links are all accessible using <code><span class="tab">tab</span></code> key on keyboard for easy page navigation. The site is robust, it is still functional without the use of CSS.</p>
+		
+		<img src="image/alttext.png" alt="Alternative text when image is not avilable">
+		<figcaption>Figure 6 - Alternative text on image.</figcaption>
+		
+		<br>
+		
+		
+		<img src="image/nocss.png" alt="page without CSS still working well">
+		<figcaption>Figure 7 - Website without CSS.</figcaption>
+		
+
+		<p><span class="subheading">Cognitive/motor neuron disorder</span><br><br> 
+Similar to the use of <code><span class="tab">tab</span></code> key and up and down arrows. The site can be easily assessable with just a tap of a single key for people that are using assistive technology such as a mouth stick or head wand; this is a solution for people who cannot use a mouse.</p>
+		
+		<img src="image/tabt.png" alt="using tab key on website show a boarder box around the hyperlinks">
+		<figcaption>Figure 8 - Box around the hyperlink button when using <code><span class="tab">tab</span></code> key.</figcaption>
+		
+
+		<p><span class="subheading">Other aspects</span><br><br> 
+As technology grows, people are using different device to view a website, such as phone, tablet, or laptop. The site is responsive to all device screen size to make sure the content fit for every device. This is archived by using @media CSS properties to adjust the content based on the device width and height and also the orientation. When left clicking a website on Google chrome, the type of phone device or tablet device and the orientation can be set and view. Please try resize the window or go to inspect on Google Chrome and switch to any device to observe how responsive the text, menu and image is!! </p> 
+		<picture>
+		<source media="(min-width:1000px)" 
+				srcset="image/phone.png">
+				<source srcset="image/cropphone.png">
+		<img src="image/phone.png" alt="mobile and tablet view using google chrome source inspect">
+		</picture>
+		<figcaption>Figure 9 - Different type of viewing device, size and orientation.</figcaption>
+<p>When zooming in and out of the website the text will automatically adjust to the appreciate size. This is achieved by also using @media CSS properties and also using non-fixing size value such as <code>px</code>, instead using <code>vw</code> unit meaning viewport width, this way the text size will follow the size of the browser window. When adjusting the windows size, image will change according to the screen size. This is done using <code>&lt;source&gt;</code> attribute, different picture set base on the window size. Try resizing the window on <a href="#figureone">Figure 1</a>!!.</p>
+		
+		<picture>
+		<source media="(min-width:1000px)" 
+				srcset="image/menu.png">
+				<source srcset="image/cropmenu.png">
+		<img src="image/menu.png" alt="Menu change position base on screen size">
+		</picture>
+		<figcaption>Figure 10 - Menu bar change postion base on screen size.</figcaption>
+		
+
+		<blockquote><div class="quote"><h3><i>"Talent means nothing, while experience, acquired in humility and with hard work, means everything."</i></h3></div></blockquote>
+		<cite><i>- Patrick Süskind - German writer 1949-</i></cite>
+
+	</section>
+	   
+	   <div class="top"> 
+      		<a href="#">Back to top &#8593;</a> 
+    	</div>
+		
+	   <footer>
+			Created by Vincent Wan 2022 &copy; Background image from Benjamin Lackey@unsplash.com
+		</footer>
+	
+	   
+	</body>	
+	
+</html>
